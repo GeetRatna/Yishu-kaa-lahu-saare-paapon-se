@@ -3,9 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="GeeetRatna-song of Songs - Christian lyrics in Hindi and English">
-    <title>यीशु का लहू | Yishu Ka Lahu - Geet Ratna</title>
+    <meta name="description" content="GeetRatna - Christian lyrics in Hindi, Marathi and English. Find worship song lyrics and videos.">
+    <title>यीशु का लहू | Yishu Ka Lahu - GeetRatna</title>
     <meta name="google-site-verification" content="u4ZZuKr8I06OdyTRj1P7O5dE0OD_EygN2n1N006tVqc">
+    <link rel="canonical" href="https://geetratna.com/yishu-ka-lahu" />
+    <meta property="og:title" content="यीशु का लहू | Yishu Ka Lahu - GeetRatna">
+    <meta property="og:description" content="Christian worship song lyrics in Hindi and English">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://geetratna.com/yishu-ka-lahu">
     <style>
         :root {
             --bg-color: #f9f9f9;
@@ -362,29 +367,18 @@
             opacity: 0.8;
         }
 
-        /* Updated Loading Animation */
+        /* Loading Animation */
         .loading-container {
             position: fixed;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            background: linear-gradient(45deg, #4a6baf, #6a4aaf, #af4a6b, #af6b4a);
-            background-size: 400% 400%;
+            background: var(--bg-color);
             display: flex;
             justify-content: center;
             align-items: center;
             z-index: 9999;
-            animation: gradientBG 15s ease infinite;
-        }
-        
-        .loading-image-container {
-            position: relative;
-            width: 120px;
-            height: 120px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
         }
         
         .loading-image {
@@ -392,40 +386,13 @@
             height: 100px;
             border-radius: 50%;
             object-fit: cover;
-            animation: pulse 2s infinite ease-in-out;
-            position: relative;
-            z-index: 2;
-            box-shadow: 0 0 20px rgba(0,0,0,0.3);
-        }
-        
-        .loading-background {
-            position: absolute;
-            width: 120px;
-            height: 120px;
-            border-radius: 50%;
-            background: linear-gradient(45deg, #4a6baf, #6a4aaf, #af4a6b, #af6b4a);
-            background-size: 400% 400%;
-            animation: gradientBG 5s ease infinite, pulseGlow 2s infinite ease-in-out;
-            filter: blur(10px);
-            opacity: 0.7;
+            animation: pulse 1.5s infinite ease-in-out;
         }
         
         @keyframes pulse {
-            0% { transform: scale(0.95); }
-            50% { transform: scale(1.05); }
-            100% { transform: scale(0.95); }
-        }
-        
-        @keyframes pulseGlow {
-            0% { transform: scale(0.9); opacity: 0.7; }
-            50% { transform: scale(1.1); opacity: 0.9; }
-            100% { transform: scale(0.9); opacity: 0.7; }
-        }
-        
-        @keyframes gradientBG {
-            0% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-            100% { background-position: 0% 50%; }
+            0% { transform: scale(0.95); opacity: 0.8; }
+            50% { transform: scale(1.05); opacity: 1; }
+            100% { transform: scale(0.95); opacity: 0.8; }
         }
 
         /* Content that will be shown after loading */
@@ -475,14 +442,11 @@
     </style>
 </head>
 <body>
-    <!-- Loading Screen - Updated with colorful background -->
+    <!-- Loading Screen -->
     <div class="loading-container">
-        <div class="loading-image-container">
-            <div class="loading-background"></div>
-            <img src="https://yt3.googleusercontent.com/s2WhsqUUbRa1jh8S99_MR_l6fC68GqcL9LpSt-cwqrxzrLAd6R8gKVn2mOYXJ6JhJimWzW6X=s160-c-k-c0x00ffffff-no-rj" 
-                 alt="Loading" 
-                 class="loading-image">
-        </div>
+        <img src="https://github.com/9004582714/Image/blob/1cb9eb52887d5cfbb48afc579fa2b4f15a3eec57/IMG-20250305-WA0007.jpg?raw=true" 
+             alt="Loading" 
+             class="loading-image">
     </div>
 
     <!-- Side Menu -->
@@ -491,7 +455,7 @@
     <div id="sideMenu" class="side-menu">
         <a href="javascript:void(0)" class="close-btn" onclick="toggleMenu()" aria-label="Close menu">&times;</a>
         <a href="index.html">Home</a>
-        <a href="https://youtube.com/@khristvaani?si=l18tvo05xpJokKV1">YouTube</a>
+        <a href="https://youtube.com/@geetratna">YouTube</a>
         <a href="about.html">About</a>
         <a href="lyrics.html">All Lyrics</a>
         <a href="contact.html">Contact</a>
@@ -503,10 +467,11 @@
         <header>
             <div class="container">
                 <div class="header-content">
-                    <img src="https://yt3.googleusercontent.com/s2WhsqUUbRa1jh8S99_MR_l6fC68GqcL9LpSt-cwqrxzrLAd6R8gKVn2mOYXJ6JhJimWzW6X=s160-c-k-c0x00ffffff-no-rj"
+                    <img src="https://github.com/9004582714/Image/blob/1cb9eb52887d5cfbb48afc579fa2b4f15a3eec57/IMG-20250305-WA0007.jpg?raw=true" 
+                         alt="GeetRatna Logo" 
                          width="80"
                          loading="lazy">
-                    <h2>गीतरत्न | GeetRatna</h2>
+                    <h1>गीतरत्न | GeetRatna</h1>
                 </div>
             </div>
         </header>
@@ -519,7 +484,7 @@
                     <li><a href="videos.html">Videos</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="marathi-lyrics.html">Marathi Lyrics</a></li>
-                    <li><a href="Hindi-lyrics.html">Hindi Lyrics</a></li>
+                    <li><a href="hindi-lyrics.html">Hindi Lyrics</a></li>
                     <li><a href="english-lyrics.html">English Lyrics</a></li>
                 </ul>
             </div>
@@ -538,11 +503,12 @@
                 </div>
 
                 <!-- Lyrics Content -->
-                <article class="lyrics-container">
-                    <h2 class="lyrics-title">यीशु का लहू ✝</h2>
-                    <section class="lyrics-section">
-                        <h3>Hindi Lyrics</h3>
-                        <div class="lyrics-text">
+                <article class="lyrics-container" itemscope itemtype="https://schema.org/MusicComposition">
+                    <h1 class="lyrics-title" itemprop="name">यीशु का लहू ✝</h1>
+                    
+                    <section class="lyrics-section" itemprop="lyrics">
+                        <h2>Hindi Lyrics</h2>
+                        <div class="lyrics-text" itemprop="text">
 यीशु का लहू सारे पापों से
 शुद्ध करता हमे (2)
 उद्धार देता , शांति देता ,
@@ -574,7 +540,7 @@
                     </section>
 
                     <section class="lyrics-section">
-                        <h3>Latin Translation</h3>
+                        <h2>Latin Translation</h2>
                         <div class="lyrics-text">
 Yishu kaa lahu saare paapon se
 Shuddh kartaa hame (2)
@@ -610,54 +576,70 @@ Shuddh kartaa hame
             <!-- More Songs Grid -->
             <h2 style="text-align: center; margin: 40px 0 20px;">More Lyrics</h2>
             <div class="songs-grid">
-            <!-- Song 1 -->
-            <article class="song-card">
-            <section class="video">
-            <h2>मला नको कोणाचे काही</h2>
-            <iframe src="https://www.youtube.com/embed/e5Tcrz0xsDw?si=WknbwhS8HvqwYJcH" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <a href="tere-bin-lyrics.html" class="btn">View Lyrics</a>
-            </section>
-            </article>
-            
-            <!-- Song 2 -->
-            <article class="song-card">
-            <section class="video">
-            <h2>तु किती किती रे</h2>
-            <iframe src="https://www.youtube.com/embed/RxpBtCzNO7s?si=-TBdy19_76p-iRn4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <a href="dhanywad-lyrics.html" class="btn">View Lyrics</a>
-            </section>
-            </article>
-            
-            <!-- Song 3 -->
-            <article class="song-card">
-            <section class="video">
-            <h2>तुज विण ख्रिस्ता</h2>
-            <iframe src="https://www.youtube.com/embed/cecfljwSiw0?si=l18tvo05xpJokKV1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <a href="ishwarachi-daya-kiti.html" class="btn">View Lyrics</a>
-            </section>
-            </article>
-            
-            <!-- Song 4 -->
-            <article class="song-card">
-            <section class="video">
-            <h2>मरण जिंकून प्रभुजी उठले</h2>
-            <iframe src="https://www.youtube.com/embed/6zIHJcLbwqk?si=DLrECQCYZj75Whbr" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <a href="mala-nako-lyrics.html" class="btn">View Lyrics</a>
-            </section>
-            </article>
-            </div></div>
+                <!-- Song 1 -->
+                <article class="song-card" itemscope itemtype="https://schema.org/MusicRecording">
+                    <section class="video">
+                        <h3 itemprop="name">मला नको कोणाचे काही</h3>
+                        <iframe src="https://www.youtube.com/embed/e5Tcrz0xsDw" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen
+                                title="Mala Nako Konache Kahi - GeetRatna"></iframe>
+                        <a href="mala-nako-lyrics.html" class="btn">View Lyrics</a>
+                    </section>
+                </article>
+                
+                <!-- Song 2 -->
+                <article class="song-card" itemscope itemtype="https://schema.org/MusicRecording">
+                    <section class="video">
+                        <h3 itemprop="name">तु किती किती रे</h3>
+                        <iframe src="https://www.youtube.com/embed/RxpBtCzNO7s" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen
+                                title="Tu Kiti Kiti Re - GeetRatna"></iframe>
+                        <a href="tu-kiti-kiti-lyrics.html" class="btn">View Lyrics</a>
+                    </section>
+                </article>
+                
+                <!-- Song 3 -->
+                <article class="song-card" itemscope itemtype="https://schema.org/MusicRecording">
+                    <section class="video">
+                        <h3 itemprop="name">तुज विण ख्रिस्ता</h3>
+                        <iframe src="https://www.youtube.com/embed/cecfljwSiw0" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen
+                                title="Tuj Vin Khrista - GeetRatna"></iframe>
+                        <a href="tuj-vin-khrista-lyrics.html" class="btn">View Lyrics</a>
+                    </section>
+                </article>
+                
+                <!-- Song 4 -->
+                <article class="song-card" itemscope itemtype="https://schema.org/MusicRecording">
+                    <section class="video">
+                        <h3 itemprop="name">मरण जिंकून प्रभुजी उठले</h3>
+                        <iframe src="https://www.youtube.com/embed/6zIHJcLbwqk" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen
+                                title="Maran Jinkun Prabhuji Uthle - GeetRatna"></iframe>
+                        <a href="maran-jinkun-lyrics.html" class="btn">View Lyrics</a>
+                    </section>
+                </article>
+            </div>
         </main>
 
         <!-- Footer -->
         <footer>
             <div class="container">
                 <ul class="footer-links">
-                    <li><a href="https://youtube.com/@khristvaani?si=l18tvo05xpJokKV1">YouTube</a></li>
-                    <li><a href="mailto:bankaranand24@gmail.com">Email</a></li>
+                    <li><a href="https://youtube.com/@geetratna">YouTube</a></li>
+                    <li><a href="mailto:contact@geetratna.com">Email</a></li>
                     <li><a href="privacy.html">Privacy Policy</a></li>
                     <li><a href="terms.html">Terms of Use</a></li>
                 </ul>
-                <p class="copyright">&copy; 2025 गीतरत्न | GeetRatna . All rights reserved.</p>
+                <p class="copyright">&copy; <span itemprop="copyrightYear">2025</span> <span itemprop="copyrightHolder">गीतरत्न | GeetRatna</span>. All rights reserved.</p>
             </div>
         </footer>
     </div>
@@ -669,7 +651,7 @@ Shuddh kartaa hame
             setTimeout(function() {
                 document.querySelector('.loading-container').style.display = 'none';
                 document.querySelector('.content').style.display = 'block';
-            }, 1200);
+            }, 800);
         });
 
         // Toggle side menu
@@ -704,4 +686,4 @@ Shuddh kartaa hame
         });
     </script>
 </body>
-</html>
+    </html>
